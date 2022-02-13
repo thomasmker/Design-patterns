@@ -15,6 +15,6 @@ def main():
     mallard.perform_quack()
     mallard.perform_fly()
 
+
 if __name__ == '__main__':
     main()
-
