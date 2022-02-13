@@ -1,6 +1,6 @@
-from StrategyPattern_EX1.Models.budget import Budget
-from StrategyPattern_EX1.Models.taxes import FederalTax, MunicipalTax
-from StrategyPattern_EX1.Models.taxes_calculator import TaxesCalculator
+from StrategyPattern_EX1.Models.Budget import Budget
+from StrategyPattern_EX1.Models.Taxes import FederalTax, MunicipalTax
+from StrategyPattern_EX1.Models.Taxes_Calculator import TaxesCalculator
 
 
 def main():
