@@ -1,39 +1,39 @@
-from abc import ABC, abstractmethod
+from abc import ABC
 
 
-class DiscountBase(ABC):
+class Discount(ABC):
     def __init__(self, next_discount):
         self._next_discount = next_discount
 
     def calculate(self, budget):
-        if self.discount_condition(budget):
-            return self.apply_discount(budget)
+        if self.is_discount_applicable(budget):
+            return self.get_amount_discount(budget)
         else:
             return self._next_discount.calculate(budget)
 
-    def discount_condition(self, budget):
+    def is_discount_applicable(self, budget):
         return True
 
-    def apply_discount(self, budget):
+    def get_amount_discount(self, budget):
         return 0
 
 
-class DiscountByFiveItems(DiscountBase):
-    def discount_condition(self, budget):
+class DiscountByFiveItems(Discount):
+    def is_discount_applicable(self, budget):
         return budget.total_items > 5
 
-    def apply_discount(self, budget):
+    def get_amount_discount(self, budget):
         return budget.value * 0.1
 
 
-class DiscountByTotalOverFiveHundred(DiscountBase):
-    def discount_condition(self, budget):
+class DiscountByTotalOverFiveHundred(Discount):
+    def is_discount_applicable(self, budget):
         return budget.value > 500
 
-    def apply_discount(self, budget):
+    def get_amount_discount(self, budget):
         return budget.value * 0.01
 
 
-class NoDiscount(DiscountBase):
+class NoDiscount(Discount):
     def __init__(self):
         super().__init__(None)
