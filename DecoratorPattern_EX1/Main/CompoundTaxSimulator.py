@@ -2,6 +2,7 @@ from DecoratorPattern_EX1.Models.CompoundTaxCalculator import CompoundTaxCalcula
 from DecoratorPattern_EX1.Models.Budget import Budget
 from DecoratorPattern_EX1.Models.Taxes import GlobalTax, NationalTax
 
+
 def main():
     calculator = CompoundTaxCalculator()
     budget = Budget(500)
