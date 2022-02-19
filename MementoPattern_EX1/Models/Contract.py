@@ -1,5 +1,3 @@
-
-
 from MementoPattern_EX1.Models.ContractState import ContractState
 
 

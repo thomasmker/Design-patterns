@@ -20,6 +20,5 @@ def main():
     print('\nContract restored to the first state')
     print(contract)
 
-
 if __name__ == '__main__':
     main()
