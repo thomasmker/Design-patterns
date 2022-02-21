@@ -1,6 +1,6 @@
-from DecoratorPattern_EX1.Models.CompoundTaxCalculator import CompoundTaxCalculator
-from DecoratorPattern_EX1.Models.Budget import Budget
-from DecoratorPattern_EX1.Models.Taxes import GlobalTax, NationalTax
+from Decorator.EXAMPLE_1.Models.CompoundTaxCalculator import CompoundTaxCalculator
+from Decorator.EXAMPLE_1.Models.Budget import Budget
+from Decorator.EXAMPLE_1.Models.Taxes import GlobalTax, NationalTax
 
 
 def main():

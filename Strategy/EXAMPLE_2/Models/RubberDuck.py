@@ -1,6 +1,6 @@
-from StrategyPattern_EX2.Models.Duck import Duck
-from StrategyPattern_EX2.Behavior.Fly.FlyNoWay import FlyNoWay
-from StrategyPattern_EX2.Behavior.Quack.Squeak import Squeak
+from Strategy.EXAMPLE_2.Models.Duck import Duck
+from Strategy.EXAMPLE_2.Behavior.Fly.FlyNoWay import FlyNoWay
+from Strategy.EXAMPLE_2.Behavior.Quack.Squeak import Squeak
 
 
 class RubberDuck(Duck):

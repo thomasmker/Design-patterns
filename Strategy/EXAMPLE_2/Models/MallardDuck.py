@@ -1,6 +1,6 @@
-from StrategyPattern_EX2.Models.Duck import Duck
-from StrategyPattern_EX2.Behavior.Fly.FlyWithWings import FlyWithWings
-from StrategyPattern_EX2.Behavior.Quack.Quack import Quack
+from Strategy.EXAMPLE_2.Models.Duck import Duck
+from Strategy.EXAMPLE_2.Behavior.Fly.FlyWithWings import FlyWithWings
+from Strategy.EXAMPLE_2.Behavior.Quack.Quack import Quack
 
 
 class MallardDuck(Duck):

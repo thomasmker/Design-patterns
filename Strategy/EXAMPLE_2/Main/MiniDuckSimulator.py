@@ -1,5 +1,5 @@
-from StrategyPattern_EX2.Models.MallardDuck import MallardDuck
-from StrategyPattern_EX2.Models.RubberDuck import RubberDuck
+from Strategy.EXAMPLE_2.Models.MallardDuck import MallardDuck
+from Strategy.EXAMPLE_2.Models.RubberDuck import RubberDuck
 
 
 def main():
