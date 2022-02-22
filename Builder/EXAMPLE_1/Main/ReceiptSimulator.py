@@ -1,5 +1,5 @@
-from BuilderPattern_EX1.Models.ReceiptBuilder import ReceiptBuilder
-from BuilderPattern_EX1.Models.Receipt import Receipt
+from Builder.EXAMPLE_1.Models.ReceiptBuilder import ReceiptBuilder
+from Builder.EXAMPLE_1.Models.Receipt import Receipt
 
 
 def main():

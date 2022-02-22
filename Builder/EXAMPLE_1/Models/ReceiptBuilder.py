@@ -1,5 +1,5 @@
 from datetime import date
-from BuilderPattern_EX1.Models.Receipt import Receipt
+from Builder.EXAMPLE_1.Models.Receipt import Receipt
 
 
 class ReceiptBuilder:
