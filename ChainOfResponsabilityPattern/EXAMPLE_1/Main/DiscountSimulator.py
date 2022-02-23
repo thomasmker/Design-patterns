@@ -1,5 +1,5 @@
-from ChainOfResponsabilityPattern_EX1.Models.Budget import Budget, Item
-from ChainOfResponsabilityPattern_EX1.Models.Discount_Calculator import DiscountCalculator
+from ChainOfResponsabilityPattern.EXAMPLE_1.Models.Budget import Budget, Item
+from ChainOfResponsabilityPattern.EXAMPLE_1.Models.Discount_Calculator import DiscountCalculator
 
 
 def main():
