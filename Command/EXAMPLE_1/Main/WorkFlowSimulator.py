@@ -1,6 +1,6 @@
-from CommandPattern_EX1.Models.CustomRequest import CustomRequest
-from CommandPattern_EX1.Models.WorkFlow import WorkFlow
-from CommandPattern_EX1.Models.RequestCommands import RequestConclusion, RequestPayment
+from Command.EXAMPLE_1.Models.CustomRequest import CustomRequest
+from Command.EXAMPLE_1.Models.WorkFlow import WorkFlow
+from Command.EXAMPLE_1.Models.RequestCommands import RequestConclusion, RequestPayment
 
 
 def main():

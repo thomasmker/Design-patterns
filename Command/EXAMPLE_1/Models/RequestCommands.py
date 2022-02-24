@@ -1,4 +1,4 @@
-from CommandPattern_EX1.Models.Command import Command
+from Command.EXAMPLE_1.Models.Command import Command
 
 
 class RequestConclusion(Command):
