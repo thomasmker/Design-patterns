@@ -1,5 +1,5 @@
 # import MySQLdb
-from FactoryPattern_EX1.Models.ConnectionFactory import ConnectionFactory
+from Factory.EXAMPLE_1.Models.ConnectionFactory import ConnectionFactory
 
 
 def main():
@@ -10,6 +10,7 @@ def main():
         print(line)
 
     connection.close()
+
 
 if __name__ == '__main__':
     main()
