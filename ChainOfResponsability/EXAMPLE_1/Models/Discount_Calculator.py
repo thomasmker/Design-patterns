@@ -1,4 +1,4 @@
-from ChainOfResponsabilityPattern.EXAMPLE_1.Models.Discount import DiscountByFiveItems, DiscountByTotalOverFiveHundred, NoDiscount
+from ChainOfResponsability.EXAMPLE_1.Models.Discount import DiscountByFiveItems, DiscountByTotalOverFiveHundred, NoDiscount
 
 
 class DiscountCalculator(object):
