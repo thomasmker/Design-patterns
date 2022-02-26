@@ -1,6 +1,6 @@
-from InterpreterPattern_EX1.Models.CustomSum import CustomSum
-from InterpreterPattern_EX1.Models.CustomSubtraction import CustomSubtraction
-from InterpreterPattern_EX1.Models.CustomNumber import CustomNumber
+from InterpreterPattern.EXAMPLE_1.Models.CustomSum import CustomSum
+from InterpreterPattern.EXAMPLE_1.Models.CustomSubtraction import CustomSubtraction
+from InterpreterPattern.EXAMPLE_1.Models.CustomNumber import CustomNumber
 
 
 def main():
