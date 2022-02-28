@@ -1,4 +1,4 @@
-from MementoPattern_EX1.Models.ContractState import ContractState
+from Memento.EXAMPLE_1.Models.ContractState import ContractState
 
 
 class Contract(object):

@@ -1,4 +1,4 @@
-from InterpreterPattern.EXAMPLE_1.Models.CustomOperation import CustomOperation
+from Interpreter.EXAMPLE_1.Models.CustomOperation import CustomOperation
 
 
 class CustomNumber(CustomOperation):

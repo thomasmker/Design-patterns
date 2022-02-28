@@ -1,6 +1,6 @@
 from datetime import date
-from MementoPattern_EX1.Models.Contract import Contract
-from MementoPattern_EX1.Models.ContractHistory import ContractHistory
+from Memento.EXAMPLE_1.Models.Contract import Contract
+from Memento.EXAMPLE_1.Models.ContractHistory import ContractHistory
 
 
 def main():
